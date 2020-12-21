@@ -24,7 +24,7 @@ def str2bool(v):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='tf-pose-estimation realtime webcam')
-    parser.add_argument('--camera', type=str, default='./exercise.avi')
+    parser.add_argument('--camera', type=str, default='./data_test/dance.mp4')
 
     parser.add_argument('--resize', type=str, default='0x0',
                         help='if provided, resize images before they are processed. default=0x0, Recommends : 432x368 or 656x368 or 1312x736 ')
