@@ -67,5 +67,5 @@ Test Inference
 ```
 $ python run_webcam.py
 ```
-<p align="center"><img align="center" src="./other/tf_pose_result.png" width="60%"></p>
+<p align="center"><img align="center" src="./images/tf_pose_result.png" width="60%"></p>
 
